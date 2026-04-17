@@ -1,6 +1,6 @@
   
 @charset "UTF-8";
-@import url('https://fonts.googleapis.com/css2?family=Source+Sans+3:ital,wght@0,200..900;1,200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Onest:ital,wght@0,200..900;1,200..900&display=swap');
 
 html {
   box-sizing: border-box;
@@ -247,10 +247,10 @@ body {
   --nsw-aboriginal-palette-black-rgb: 0, 0, 0;
   --nsw-aboriginal-palette-off-white-rgb: 242, 242, 242;
   --nsw-aboriginal-palette-white-rgb: 255, 255, 255;
-  --nsw-brand-dark: #1b1464;
-  --nsw-brand-light: #9b97cc;
-  --nsw-brand-supplementary: #9f9cbd;
-  --nsw-brand-accent: #1b1464;
+  --nsw-brand-dark: #bd3474;
+  --nsw-brand-light: #e984c7;
+  --nsw-brand-supplementary: #d391b9;
+  --nsw-brand-accent: #bd3474;
   --nsw-brand-accent-light: #ffe6ea;
   --nsw-black: #000;
   --nsw-grey-01: #22272b;
@@ -275,9 +275,9 @@ body {
   --nsw-text-light: #fff;
   --nsw-text-dark-rgb: 34, 39, 43;
   --nsw-text-light-rgb: 255, 255, 255;
-  --nsw-link: #1b1464;
+  --nsw-link: #bd3474;
   --nsw-link-light: #fff;
-  --nsw-visited: #551a8b;
+  --nsw-visited: #dd89b0;
   --nsw-visited-light: #fff;
   --nsw-hover: rgba(0, 38, 100, .1);
   --nsw-hover-light: hsla(0, 0%, 100%, .1);
@@ -329,7 +329,7 @@ body {
   --nsw-disruption-travel: #3199ba;
   --nsw-disruption-cancelled: #a331ba;
 
-  --nsw-font-family: "Source Sans 3", sans-serif;
+  --nsw-font-family: "Onest", sans-serif;
   --nsw-font-size: 16px;
   --nsw-line-height: 1.5;
   --nsw-font-normal: 500;
