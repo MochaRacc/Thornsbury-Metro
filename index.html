@@ -1,23 +1,199 @@
 <!DOCTYPE html>
-<html>
-<title>Thornsbury Metro | Taking passengers in 2027</title>  
-<style>
-body {
-  background-color: #060f09;
-}
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="shortcut icon" type="image/png" href="img/icon.png" />
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+    <link
+      href="/fonts/moderat.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Thornsbury Metro | Taking passengers in 2027</title>
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav">
+        <img
+          src="img/logo.svg"
+          alt="Thornsbury Metro logo"
+          class="nav__logo"
+          id="logo"
+        />
+        <ul class="nav__links">
+          <li class="nav__item">
+            <a class="nav__link" href="#about">About the project</a>
+          </li>
+          <li class="nav__item">
+            <a class="nav__link" href="#extensions">Extensions</a>
+          </li>
+          <li class="nav__item">
+            <a class="LogIN nav__link nav__link--btn" href="https://transnetpt.com/">Transnet</a>
+          </li>
+        </ul>
+      </nav>
 
-</style>    
-<body>
+      <div class="header__title">
+        <h1>
+          We're building a new Metro line, serving 17 stations and taking passengers in <span class="highlight">2027</span></h1>
+        <h4>We're building a self driving, state of the art, Metro network for the Northwest, CBD & Southeast, to be completed by 2030</h4>
+        <p class="btn--text btn--scroll-to">Scroll down for more info ↓</p>
+        <img
+          src="img/hero.png"
+          class="header__img"
+          alt="Minimalist bank items"
+        />
+      </div>
+    </header>
 
-<div><p>&nbsp;</p></div>
-<div class="center"><img src="/opens-soon.png" alt="Text that says Opens in 2027 with the Thornsbury Metro logo "style="height:720px;"></div>
+    <section class="section" id="about">
+      <div class="section__title">
+        <h2 class="section__description">ABOUT THE PROJECT</h2>
+        <h3 class="section__header">
+          The Thornsbury Metro is being built to improve the quality of public transport across Thornsbury by 2030, serving towns not covered by rail services or buses.
+        </h3>
+      </div>
 
+      <div class="features">
+        <img
+          src="img/metropolis-render.jpg"
+          alt="A render of the Alstom Metropolis with the Thornsbury Metro livery"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <h2 class="features__header">35 new trains to be built for the new network</h2>
+          <p>
+            We're building 35 new Alstom Metropolis trains for the new Metro line, 
+            with the first train to enter service early 2027 on the Northwest.
 
-</body>
+            These new trains will hold a capacity of ~1200 passengers in a six-car form, with a potential expansion to eight cars.
+          </p>
+        </div>
+
+        <div class="features__feature">
+          <h2 class="features__header">Project timeline</h2>
+          <p>
+          We're working on making this project work between 2026, 2027 & 2028. Open the image in a new tab to see the timeline.
+          </p>
+        </div>
+        <img
+          src="img/roadmap.jpg"
+          alt="A roadmap of the Thornsbury Metro project"
+          class="features__img lazy-img"
+        />
+
+        <img
+          src="img/more.png"
+          alt="An image of the More Metro means More Bus routes"
+          class="features__img lazy-img"
+        />
+        <div class="features__feature">
+          <h2 class="features__header">More metro = More bus routes!</h2>
+          <p>
+            When the Metro is built, we'll also improve the bus network by adding
+            new bus routes, connecting existing ones with the new metro and working
+            on improving timetables for bus services. These improvements will go alongside
+            the opening on all Metro extensions (Metro Northwest, CBD & Southeast)
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="extensions">
+      <div class="section__title">
+        <h2 class="section__description">EXTENSIONS</h2>
+        <h3 class="section__header">
+          We're building the Metro in 3 extensions, the Northwest, CBD & Southeast, see how each extension will work.
+        </h3>
+      </div>
+
+      <div class="operations">
+        <div class="operations__tab-container">
+          <button
+            class="
+              btn
+              operations__tab operations__tab--1 operations__tab--active
+            "
+            data-tab="1"
+          >
+            <span>M1</span>Metro Northwest
+          </button>
+          <button class="btn operations__tab operations__tab--2" data-tab="2">
+            <span>M2</span>Metro CBD/Central
+          </button>
+          <button class="btn operations__tab operations__tab--3" data-tab="3">
+            <span>M3</span>Metro Southeast
+          </button>
+        </div>
+        <div
+          class="
+            operations__content
+            operations__content--1
+            operations__content--active
+          "
+        >
+          <h5>
+          Opening early 2027
+          </h5>
+          <p>
+          Starting from St. Belwyn, the line will stop at Avandale, Prylor Hill, Kookaburra Creek, Warrendayle, Kingston & Wundanong.  
+          </p>
+          <p>When the line opens, trains will operate from 7am - 9pm weekdays only while Metro CBD works take place. Buses will also operate alongside the line, in full 24/7 operation.</p>
+        </div>
+
+        <div class="operations__content operations__content--2">
+          <h5>
+            Opening mid-2027
+          </h5>
+          <p>
+            Continues from Wundanong, goes onto Thornsbury, Arywn Place & Southbank.
+          </p>
+          <p>Trains will operate to a temporary terminus while works take place, the temporary terminus will be demolished once Metro Southeast is in testing.</p>
+        </div>
+        <div class="operations__content operations__content--3">
+          <h5>
+            Opens late 2027
+          </h5>
+          <p>
+            Goes past Southbank, extends to Sleaford, Mainsleigh, Whittlesea, Fairfield & the terminates at Northam
+          </p>
+          <p>With a new sidings to be built at Whittlesea, this is the last part of the project.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <img src="img/icon.png" alt="Logo" class="footer__logo" />
+      <p class="footer__copyright">
+        &copy; Copyright 2026
+        <a
+          class="footer__link twitter-link"
+          target="_blank"
+          href="https://transnetpt.com"
+          >Transnet</a> - The Thornsbury Metro project is maintained by Transnet & the Thornsbury Government's Department of Tranport & Agriculture 
+      </p>
+      <p class="footer__copyright">Please note: This site is an overview of the Thornsbury Metro project. The website will change when construction begins or when the Northwest opens.</p>
+    </footer>
+    <div class="modal hidden">
+      <button class="btn--close-modal">&times;</button>
+      <h2 class="modal__header">
+        Open your bank account <br />
+        in just <span class="highlight">5 minutes</span>
+      </h2>
+      <form class="modal__form">
+        <label>First Name</label>
+        <input type="text" />
+        <label>Last Name</label>
+        <input type="text" />
+        <label>Email Address</label>
+        <input type="email" />
+        <button class="btn">Next step &rarr;</button>
+      </form>
+    </div>
+    <div class="overlay hidden"></div>
+
+    <script src="script.js"></script>
+  </body>
 </html>
